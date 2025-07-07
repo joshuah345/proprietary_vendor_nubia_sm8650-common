@@ -764,56 +764,24 @@ PRODUCT_PACKAGES += \
     com.qtistatic.stats.pdlib \
     com.zte.node.aipreprocess \
     com.zte.node.capturebokeh \
-    com.zte.node.mcxrealtimepostprocess \
     com.zte.node.motiondetect \
     com.zte.node.realtimebokeh \
     com.zte.node.realtimedefog \
     com.zte.node.sharpnessdetect \
     com.zte.node.supres \
-    libcamxevainterface \
     libdepthmapwrapper_itof \
     libdepthmapwrapper_secure \
     camx.device-impl \
     camx.provider-impl \
-    com.qti.camx.chiiqutils \
-    com.qti.chiusecaseselector \
-    com.qti.feature2.afbrckt \
-    com.qti.feature2.anchorsync \
-    com.qti.feature2.demux \
-    com.qti.feature2.derivedoffline \
-    com.qti.feature2.generic \
-    com.qti.feature2.gs.sm8650 \
-    com.qti.feature2.hdr \
-    com.qti.feature2.mcreprocrt \
-    com.qti.feature2.memcpy \
-    com.qti.feature2.metadataserializer \
-    com.qti.feature2.mfsr \
-    com.qti.feature2.ml \
-    com.qti.feature2.mux \
-    com.qti.feature2.qcfa \
-    com.qti.feature2.rawhdr \
-    com.qti.feature2.realtimeserializer \
-    com.qti.feature2.rt \
-    com.qti.feature2.rtmcx \
-    com.qti.feature2.serializer \
-    com.qti.feature2.statsregeneration \
-    com.qti.feature2.stub \
-    com.qti.feature2.supres \
-    com.qti.feature2.swmf \
     com.qti.qseeaon \
     com.qti.qseeutils \
     com.qti.settings.sm8650 \
     com.qti.stats.common \
-    com.qualcomm.mcx.distortionmapper \
-    com.qualcomm.mcx.linearmapper \
-    com.qualcomm.mcx.nonlinearmapper \
-    com.qualcomm.mcx.policy.mfl \
     com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@1.0 \
     com.qualcomm.qti.imscmservice@2.0 \
     com.qualcomm.qti.imscmservice@2.1 \
     com.qualcomm.qti.imscmservice@2.2 \
-    com.qualcomm.qti.mcx.usecase.extension \
     com.qualcomm.qti.uceservice@2.0 \
     com.qualcomm.qti.uceservice@2.1 \
     com.qualcomm.qti.uceservice@2.2 \
@@ -831,8 +799,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1-impl-qti \
     android.hardware.gnss-aidl-impl-qti \
     com.dsi.ant@1.0-impl \
-    com.qti.chi.offline \
-    fingerprint.gf95xx.default \
     libqtigatekeeper \
     vendor.qti.hardware.alarm-impl \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
@@ -914,7 +880,6 @@ PRODUCT_PACKAGES += \
     libbtnv \
     libc++_shared \
     libcacertclient \
-    libcamerapostproc \
     libcamxcommonutils \
     libcamxdefog \
     libcamxexternalformatutils \
@@ -922,7 +887,6 @@ PRODUCT_PACKAGES += \
     libcamxhwnodecontext \
     libcamxifestriping \
     libcamximageformatutils \
-    libcamxncsdatafactory \
     libcamxqsatalgo \
     libcamxsettingsmanager \
     libcamxstatscore \
