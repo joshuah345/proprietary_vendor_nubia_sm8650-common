@@ -36,43 +36,15 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/sm8650-common/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
     vendor/nubia/sm8650-common/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
     vendor/nubia/sm8650-common/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__eai_2.10_enpu3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__eai_2.10_enpu3.pmd \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/ffv_models/ffv__6.2.5_0.1__eai_3.4__enpu_v4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__6.2.5_0.1__eai_3.4__enpu_v4.pmd \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/ffv_models/ffv__7.0.1_0.1__eai_3.4_enpu_v4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__7.0.1_0.1__eai_3.4_enpu_v4.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.7_enpu3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.7_enpu3.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.6.3_0.0__3.0.0_0.0__3.1.1.0_0.0__3.2.0_0.0__eai_2.7_enpu_v3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.6.3_0.0__3.0.0_0.0__3.1.1.0_0.0__3.2.0_0.0__eai_2.7_enpu_v3.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.6.3_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.0_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.6.3_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.0_enpuv4.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.6.5_0.0__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.10_enpuv3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.6.5_0.0__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.10_enpuv3.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.20_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.20_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.5_0.0__3.0.0_0.0__3.1.1.0_0.0__3.2.0_0.0__eai_2.7_enpu_v3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.5_0.0__3.0.0_0.0__3.1.1.0_0.0__3.2.0_0.0__eai_2.7_enpu_v3.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.5_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.0_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.5_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.0_enpuv4.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.6_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.6_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.7_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.7_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.8_0.0__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.10_enpuv3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.8_0.0__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.10_enpuv3.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.8_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.0_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.8_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.0_enpuv4.pmd \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.9.0_1.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.9.0_1.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.9.2_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.9.2_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.9.2_1.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.0__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.9.2_1.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.0__eai_3.4_enpuv4.pmd \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.1.20_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.0__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.1.20_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.0__eai_3.4_enpuv4.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.10_0.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.10_0.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.11_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.11_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.14_1.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.14_1.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.2_0.0__3.0.0_0.0__3.1.1.0_0.0__3.2.0_0.0__eai_2.7_enpu_v3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.2_0.0__3.0.0_0.0__3.1.1.0_0.0__3.2.0_0.0__eai_2.7_enpu_v3.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.3_0.0__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.10_enpuv3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.3_0.0__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.10_enpuv3.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.0_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.0_enpuv4.pmd \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.9_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.9_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__8.0.2_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__8.0.2_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_2.10_enpuv3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_2.10_enpuv3.pmd \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_3.4_enpuv4.pmd \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/batching.conf:$(TARGET_COPY_OUT_VENDOR)/etc/batching.conf \
@@ -86,7 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/camera_family_resources/family_demo_slomo.mp4:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_family_resources/family_demo_slomo.mp4 \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/camera_family_resources/family_demo_vlog.mp4:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_family_resources/family_demo_vlog.mp4 \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/cameraaiconfig:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cameraaiconfig \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/constellation/And.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/constellation/And.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/constellation/Ant.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/constellation/Ant.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/constellation/Aps.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/constellation/Aps.png \
@@ -274,7 +245,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/water_mark_v1a_drawable_white.argb:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/water_mark_v1a_drawable_white.argb \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/water_mark_v1a_drawable_white_eng.argb:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/water_mark_v1a_drawable_white_eng.argb \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/yizhou_fs.c:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/yizhou_fs.c \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/mfnr_network_denoise_config_underdisplay.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mfnr_network_denoise_config_underdisplay.xml \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/remosaic_cali_ov16a1q.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/remosaic_cali_ov16a1q.bin \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/remosaic_cali_s5kjn1sq03.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/remosaic_cali_s5kjn1sq03.bin \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/sat_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sat_config.xml \
@@ -379,6 +349,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/eva/itof/tuning_params_sensor_type_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/eva/itof/tuning_params_sensor_type_1.json \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/gnss_antenna_info.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gnss_antenna_info.conf \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
+    vendor/nubia/sm8650-common/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-qti.rc \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/init/android.hardware.gatekeeper-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper-service-qti.rc \
@@ -577,7 +548,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/telephony_packages.xml:$(TARGET_COPY_OUT_VENDOR)/etc/telephony_packages.xml \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/vmmgr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/vmmgr.conf \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
@@ -914,7 +884,6 @@ PRODUCT_PACKAGES += \
     libcom.qti.chinodeutils \
     libcommonchiutils \
     libconfigdb \
-    libcpion \
     libcv_common \
     libdataitems \
     libdehaze_nvx \
@@ -1030,7 +999,6 @@ PRODUCT_PACKAGES += \
     libnicm_recovery \
     libnicm_utils \
     libnicm_vh \
-    liboemcrypto \
     libomp \
     libopencv \
     libopencv3a \
@@ -1187,7 +1155,6 @@ PRODUCT_PACKAGES += \
     libtlpd_crypto \
     libtlpd_internal \
     libtlpd_logger \
-    libtrustedapploader \
     libubwcp \
     libvendor.goodix.hardware.biometrics.fingerprint \
     libvendorutils \
@@ -1526,6 +1493,7 @@ PRODUCT_PACKAGES += \
     TimeService \
     uimgbaservice \
     ImsRcsService \
+    PowerOffAlarm \
     QCC \
     QesdkSysService \
     QtiTelephonyService \
@@ -1617,7 +1585,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.qccsyshal_aidl-service.xml \
     vendor.qti.qesdsys.service.xml \
     ATFWD-daemon \
-    KmInstallKeybox \
     adpl \
     adsprpcd \
     cdsprpcd \
@@ -1733,3 +1700,6 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libEGL_adreno_so \
     vendor_lib64_libGLESv2_adreno_so \
     vendor_lib64_libq3dtools_adreno_so
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
