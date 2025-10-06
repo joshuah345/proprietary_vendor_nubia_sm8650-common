@@ -924,6 +924,7 @@ PRODUCT_PACKAGES += \
     libhdr10plus \
     libhdr_backlight_adapter \
     libhdr_tm \
+    libiccprofile \
     libidl \
     libin_display \
     libintervmipc \
