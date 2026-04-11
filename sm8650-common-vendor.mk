@@ -797,6 +797,7 @@ PRODUCT_PACKAGES += \
     libQtiRilLoadable \
     libVoiceSdk \
     libWlanServiceJni \
+    libaacvibrator \
     libadaptive_shutter \
     libadm \
     libadreno_app_profiles \
